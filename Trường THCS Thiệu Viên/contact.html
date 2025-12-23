@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Liên hệ - Trường THCS Thiệu Viên</title><link rel="stylesheet" href="assets/css/style.css"></head><body>
+
+<header class="header">
+  <div class="container inner">
+    <div class="brand">
+      <img src="assets/img/logo.webp" alt="Logo trường">
+      <div>
+        <div class="title">Trường THCS Thiệu Viên</div>
+        <div class="logo-text">Thiệu Trung - Thanh Hóa</div>
+      </div>
+    </div>
+    <button id="menuBtn" class="mobile-menu">☰</button>
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="about.html">Giới thiệu</a></li>
+        <li><a href="news.html">Tin tức</a></li>
+        <li><a href="subjects.html">Môn học</a></li>
+        <li><a href="teachers.html">Giáo viên</a></li>
+        <li><a href="schedule.html">Thời khóa biểu</a></li>
+        <li><a href="contact.html">Liên hệ</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <h1 style="margin-top:18px">Liên hệ</h1>
+  <div class="grid">
+    <div>
+      <div class="card">
+        <h3>Thông tin liên hệ</h3>
+        <p class="small">Địa chỉ: Thiệu Viên, Thiệu Trung, Thanh Hóa</p>
+        <p class="small">SĐT: 0919305628 - 0978259258</p>
+        <p class="small">Email: thcsthieuvien@gmail.com</p>
+      </div>
+      <div class="card map-wrap" style="margin-top:12px">
+        <h3>Bản đồ</h3>
+        <iframe src="https://www.google.com/maps?q=Thi%E1%BB%8ệu%20Trung%2C%20Thanh%20H%C3%B3a&output=embed" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div>
+      <div class="card">
+        <h3>Gửi liên hệ</h3>
+        <form class="contact-form" onsubmit="event.preventDefault(); alert('Cảm ơn! Chúng tôi đã nhận được tin nhắn.');">
+          <input required placeholder="Họ và tên">
+          <input required placeholder="Email hoặc SĐT">
+          <textarea rows="5" required placeholder="Nội dung"></textarea>
+          <button type="submit">Gửi</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <strong>Trường THCS Thiệu Viên – Thiệu Trung – Thanh Hóa</strong>
+        <p class="small">Dạy tốt – Học tốt – Vì tương lai quê hương</p>
+      </div>
+      <div style="text-align:right">
+        <p class="small">Email: thcsthieuvien@gmail.com</p>
+        <p class="small">SĐT: 0919305628 - 0978259258</p>
+        <p class="small">© <span id="year"></span> Trường THCS Thiệu Viên</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/script.js"></script>
+
+</body></html>
